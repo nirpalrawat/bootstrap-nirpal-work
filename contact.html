@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      .weblogo {
+        width: 65px;
+      }
+
+      .navbar {
+        background: #00000082 !important;
+      }
+
+      .navbar-nav li {
+        padding: 0 10px;
+      }
+
+      .navbar-nav li a {
+        color: #fff !important;
+        font-weight: 600;
+        font-size: 20px;
+      }
+
+      .moblogo {
+        display: none;
+      }
+
+      @media (max-width: 768px) {
+        .weblogo {
+          display: none;
+        }
+
+        .moblogo {
+          display: block;
+        }
+
+        .navbar {
+          background: rgb(255, 174, 0) !important;
+        }
+        .imgmob {
+          margin-top: 80px;
+        }
+      }
+      footer {
+        background: #020306f0;
+        padding: 50px;
+        color: #fff;
+      }
+      footer .img123 {
+        margin-top: 30px;
+        width: 50%;
+      }
+      .h22 {
+        font-family: "prague";
+        font-size: 2 rem;
+        line-height: 50px;
+        letter-spacing: 3px;
+        color: #fff;
+      }
+      .p1 {
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 1px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar bg-dark navbar-expand-md navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a href="" class="navbar-brand">
+          <img
+            src="https://pn-paul.netlify.app/image/ff-logo-02.png"
+            alt=""
+            class="weblogo"
+          />
+          <!--mobile logo-->
+          <img
+            src="https://pn-paul.netlify.app/image/logo-for-mobile.png"
+            alt=""
+            class="moblogo"
+          />
+        </a>
+
+        <!--mobile view-->
+        <button class="navbar-toggler">
+          <span
+            class="navbar-toggler-icon"
+            data-bs-target="#a"
+            data-bs-toggle="collapse"
+          ></span>
+        </button>
+
+        <!--menu div start-->
+        <div class="navbar-collapse collapse" id="a">
+          <ul class="navbar-nav ms-auto text-center">
+            <li><a class="nav-link" href="">HOME </a></li>
+            <li><a class="nav-link" href="">ABOUT</a></li>
+            <li><a class="nav-link" href="">BRAND</a></li>
+            <li><a class="nav-link" href="">OUR TEAM</a></li>
+            <li><a class="nav-link" href="">PRESS RELEASE </a></li>
+            <li><a class="nav-link" href="">CONTACT</a></li>
+            <li><a class="nav-link" href="">CARRERS</a></li>
+            <li><a class="nav-link" href="">FRANCHISE</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--container-fluid-->
+    </nav>
+    <img
+      src="https://pn-paul.netlify.app/image/CONTACT-US.jpg"
+      alt=""
+      class="w-100 imgmob"
+    />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="mt-5 mb-3">SEND US MESSAGE</h2>
+          <form action="">
+            <div class="mb-3 mt-3">
+              <input type="text" class="form-control" placeholder="name" />
+            </div>
+            <div class="mb-3 mt-3">
+              <input type="text" class="form-control" placeholder="Email" />
+            </div>
+            <div class="mb-3 mt-3">
+              <input type="text" class="form-control" placeholder="phone" />
+            </div>
+            <div class="mb-3 mt-3">
+              <input type="text" class="form-control" placeholder="Message" />
+            </div>
+            <div>
+              <button class="btn bg-warning btn-lg text-light">submit</button>
+            </div>
+          </form>
+          <!-- form end -->
+        </div>
+        <div class="col-md-6">
+          <h2 class="mt-5 mb-3">CONTACT INFO</h2>
+          <h6 style="color: orange">Address</h6>
+          <p>
+            6, Chanakyapuri Shopping Complex, 48, Malcha Marg, New Delhi 110021
+          </p>
+
+          <h6 style="color: orange">For Franchise Enquiry</h6>
+          <p>MOBILE: <b style="color: orange">+91 7697023166</b></p>
+          <p>EMAIL: <b style="color: orange"> franchise@firstfiddle.in</b></p>
+
+          <h6 style="color: orange">For HR Enquiry</h6>
+          <p>MOBILE: <b style="color: orange">+91 7509602066</b></p>
+          <p>EMAIL: <b style="color: orange">hr@firstfiddle.in</b></p>
+
+          <h6 style="color: orange">For Other Enquiry</h6>
+          <p>PHONE: <b style="color: orange">7697023166</b></p>
+          <p>EMAIL: <b style="color: orange">customercare@firstfiddle.in</b></p>
+          <p>Open: Monday - Saturday 10:30 - 19:30</p>
+        </div>
+      </div>
+    </div>
+    <!-- container end -->
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-5">
+            <img
+              src="https://pn-paul.netlify.app/image/ff-logo-02.png"
+              class="img123"
+            />
+            <br /><br />
+          </div>
+          <div class="col-md-7">
+            <h2 class="h22"><span style="color: #ffad00">CONTACT</span> US</h2>
+            <p class="p1">
+              We're a team focusing on redefining the way the hospitality
+              industry works by bringing in concept based restaurants across
+              India. We are truly committed to catering to the ever-changing
+              cosmopolitan taste of the customer and revolutioning the F & B
+              industry!
+            </p>
+            <div class="row">
+              <div class="col-md-6">
+                <h2 style="color: #ffad00">Address</h2>
+                <p>
+                  S-357 2nd floor, Block S, Panchsheel Park South, Panchsheel
+                  Park, New Delhi, Delhi 110017
+                </p>
+                <a href=""
+                  ><i
+                    class="fa-brands fa-facebook"
+                    style="font-size: 40px; color: blue"
+                  ></i
+                ></a>
+                <a href=""
+                  ><i
+                    class="fa-brands fa-linkedin"
+                    style="font-size: 40px; color: blue"
+                  ></i
+                ></a>
+                <a href=""
+                  ><i
+                    class="fa-brands fa-instagram"
+                    style="font-size: 40px; color: red"
+                  ></i
+                ></a>
+              </div>
+              <div class="col-md-6">
+                <h2 style="color: #ffad00">Enquiry</h2>
+                <p class="text-light">
+                  Email:
+                  <span style="color: #f79205; font-weight: 400"
+                    >customercare@firstfiddle.in</span
+                  >
+                </p>
+              </div>
+            </div>
+            <!--row end-->
+          </div>
+        </div>
+        <!--row end-->
+      </div>
+      <!--container-fluid end-->
+    </footer>
+    <div class="container-fluid">
+      <div class="row" style="color: white; background: black">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 mt-3">
+          <p>
+            EMPLOYEE POLICIES |PRIVACY POLICY |TERMS AND CONDITIONS | BLOG | APP
+            COPYRIGHT © 2021 FIRST FIDDLE F&B PRIVATE LIMITED
+          </p>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+  </body>
+</html>
